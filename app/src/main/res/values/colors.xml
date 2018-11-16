@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#8e8e8c</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white1">#dbdbdb</color>
+    <color name="white2">#fbfdfb</color>
+    <color name="white3">#E6E6E6</color>
+    <color name="black">#000000</color>
+    <color name="black1">#262222</color>
+    <color name="black2">#8e8e8c</color>
+    <color name="sale_percentage">#AB1212</color>
+    <color name="color_project">#0191ea</color>
+    <color name="green">#116409</color>
+
+    <color name="bottomNav">#C0C0C0</color>
+
+    <color name="shape_color">#7ACFD6</color>
+
+    <color name="search_linear">#403E4E</color>
+    <color name="search_edit">#424242</color>
+
+    <color name="button_selected">#0F4C85</color>
+    <color name="button_unselected">#3F51B5</color>
+
+    <color name="color1">#0F4C85</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="no_internet">#9FC0FC</color>
+</resources>

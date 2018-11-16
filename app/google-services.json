@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1067068482429",
+    "firebase_url": "https://car-assistance-e272e.firebaseio.com",
+    "project_id": "car-assistance-e272e",
+    "storage_bucket": "car-assistance-e272e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067068482429:android:cead68a979603821",
+        "android_client_info": {
+          "package_name": "com.h2m.carassistance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067068482429-6od4h5tamr52u5reprb6758arcdblio7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkaMM3Azwx2UbpJKSd5bdANhezdtR2M34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

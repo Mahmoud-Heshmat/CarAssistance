@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Car Assistance</string>
+
+    <string name="already_member">Already a member ? Log in</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="user_email">Email</string>
+    <string name="password">Password</string>
+    <string name="user_name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="not_a_user_yet_sign_up">Not a user yet ? Sign up</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget password ?</string>
+
+    <string name="name_error">Name at least 3 character</string>
+    <string name="email_error">Enter a valid email (test@test.com)</string>
+    <string name="password_error">Password at least 5 character or numbers</string>
+    <string name="phone_error">Enter a valid Phone</string>
+
+    <string name="check_network_connection">Please check network connection</string>
+    <string name="ok">Ok</string>
+    <string name="wrong_alert">Oops something went wrong.</string>
+    <string name="login_error">Uh oh! Your email address or password is incorrect. Try again or try resetting your password</string>
+    <string name="alert_login">You have already created this account. Try logging in with your details</string>
+    <string name="warning_alert">Warning</string>
+    <string name="mobile">Mobile</string>
+
+    <string name="car_name">Car Name</string>
+    <string name="car_model">Car Model</string>
+    <string name="enter_number_of_km">Enter Number of KM</string>
+    <string name="enter_made_year">Enter Made Year</string>
+    <string name="add_car">Add Car</string>
+    <string name="fill_car_model">Please fill car model</string>
+    <string name="fill_car_year">Please fill car year</string>
+    <string name="fill_car_km">Please fill Car KM</string>
+    <string name="name_of_item">Name of item</string>
+    <string name="date_to_make_reminder">Date to make reminder</string>
+    <string name="add_item">Add Item</string>
+    <string name="fill_item_name">Please fill Item Name</string>
+    <string name="fill_item_date">Please choose date you need change at</string>
+    <string name="km">KM</string>
+    <string name="date">Date</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="data_not_available">Items data not available.</string>
+    <string name="main_notification_channel_name">Primary</string>
+    <string name="widget_key">widget_key</string>
+
+    <string name="notification_title">Alarm</string>
+    <string name="notification_message">Need to change</string>
+    <string name="choose_adding">Choose adding</string>
+    <string name="empty_data">No item added yet, click on add button and create the first one</string>
+</resources>

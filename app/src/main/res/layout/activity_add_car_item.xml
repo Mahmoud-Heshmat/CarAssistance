@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCarItemActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/name_of_item"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/dateReminder"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:editable="false"
+        android:focusable="false"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/date_to_make_reminder"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/carKilo"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/enter_number_of_km"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addCarItemBtn"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/add_item"
+        android:textColor="@color/white" />
+
+</LinearLayout>

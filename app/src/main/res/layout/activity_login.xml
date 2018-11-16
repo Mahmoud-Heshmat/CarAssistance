@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/user_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/login"
+        android:textColor="@color/white" />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:text="@string/not_a_user_yet_sign_up"
+        android:layout_width="189dp"
+        android:layout_height="33dp"
+        android:textColor="@color/black"
+        android:id="@+id/not_user_yet"
+        android:textSize="@dimen/dim15"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+
+
+</LinearLayout>

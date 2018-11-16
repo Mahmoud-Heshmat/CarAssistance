@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddCarActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_marginTop="100dp"
+        android:id="@+id/cNameSpinner"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:prompt="@string/car_name"/>
+
+    <EditText
+        android:id="@+id/carModel"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/car_model"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/carYear"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/enter_made_year"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/carKilo"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:hint="@string/enter_number_of_km"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addCarBbtn"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/add_car"
+        android:textColor="@color/white" />
+
+</LinearLayout>
